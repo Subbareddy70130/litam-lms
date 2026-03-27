@@ -1,0 +1,141 @@
+.about-page {
+  min-height: 100vh;
+  background: var(--primary);
+  color: white;
+  padding-bottom: 80px;
+}
+
+.hero-section {
+  padding: 120px 20px 80px;
+  background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)), url('../assets/images/A4-1.jpg') center/cover;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+  color: var(--text-muted);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.vision-mission {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.glass-card {
+  background: var(--glass);
+  backdrop-filter: blur(20px);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 40px;
+  transition: transform 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.card-header h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.icon-blue { color: #667eea; }
+.icon-green { color: #10b981; }
+
+.vision p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+}
+
+.mission ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.mission li {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+.dot.blue { background: #667eea; }
+.dot.green { background: #10b981; }
+.dot.yellow { background: #f59e0b; }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.info-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 50px;
+  height: 50px;
+  background: rgba(102, 126, 234, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justifyContent: center;
+  margin: 0 auto 20px;
+  color: #667eea;
+}
+
+.info-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.info-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 968px) {
+  .vision-mission { grid-template-columns: 1fr; }
+  .about-grid { grid-template-columns: 1fr; }
+  .hero-section h1 { font-size: 2.5rem; }
+}

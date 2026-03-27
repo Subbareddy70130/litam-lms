@@ -1,0 +1,85 @@
+[
+  {
+    "model": "faculty.faculty",
+    "pk": 1,
+    "fields": {
+      "name": "Dr. K. Rama Rao",
+      "department": "Computer Science & Engineering",
+      "qualification": "M.Tech, Ph.D",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80"
+    }
+  },
+  {
+    "model": "faculty.faculty",
+    "pk": 2,
+    "fields": {
+      "name": "Mrs. S. Lakshmi",
+      "department": "Electronics & Communication",
+      "qualification": "M.Tech",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80"
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 1,
+    "fields": {
+      "title": "B.Tech in Computer Science and Engineering",
+      "duration": "4 Years",
+      "eligibility": "Intermediate (MPC) with 45% marks and EAPCET Rank."
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 2,
+    "fields": {
+      "title": "B.Tech in Artificial Intelligence & Data Science",
+      "duration": "4 Years",
+      "eligibility": "Intermediate (MPC) with 45% marks and EAPCET Rank."
+    }
+  },
+  {
+    "model": "courses.course",
+    "pk": 3,
+    "fields": {
+      "title": "Master of Business Administration (MBA)",
+      "duration": "2 Years",
+      "eligibility": "Any Graduate with 50% marks and ICET Rank."
+    }
+  },
+  {
+    "model": "notices.notice",
+    "pk": 1,
+    "fields": {
+      "title": "Mid-Term Examination Schedule - Oct 2023",
+      "description": "All B.Tech students are informed that mid-exams start from Oct 15th. Check the portal for details.",
+      "date": "2023-10-01"
+    }
+  },
+  {
+    "model": "notices.notice",
+    "pk": 2,
+    "fields": {
+      "title": "Campus Placement Drive: TCS & Wipro",
+      "description": "TCS and Wipro are visiting for recruitment on Oct 25th. Registration is mandatory.",
+      "date": "2023-10-05"
+    }
+  },
+  {
+    "model": "gallery.galleryimage",
+    "pk": 1,
+    "fields": {
+      "title": "Main Campus Building",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2023-01-01T12:00:00Z"
+    }
+  },
+  {
+    "model": "gallery.galleryimage",
+    "pk": 2,
+    "fields": {
+      "title": "Advanced Computer Lab",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
+      "created_at": "2023-01-02T12:00:00Z"
+    }
+  }
+]
